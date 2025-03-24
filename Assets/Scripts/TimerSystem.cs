@@ -31,5 +31,12 @@ public class TimerSystem : MonoBehaviour
 
         _timeRemaining -= Time.deltaTime;
         _timeRemaining = Mathf.Clamp(_timeRemaining, 0, _startingTime);
+
+
+        if (_timer)
+
+        {
+
+        }
     }
 }
