@@ -229,8 +229,8 @@ TrailRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.39419454
-        value: 0.3552631
+        time: 0.066664636
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -238,8 +238,62 @@ TrailRenderer:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.7623188
-        value: 0
+        time: 0.08289006
+        value: 0.22368431
+        inSlope: -2.1057317
+        outSlope: -2.1057317
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2536869
+        value: 0.9875614
+        inSlope: -1.2236032
+        outSlope: -1.2236032
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.28223002
+        value: 0.27924436
+        inSlope: -1.4473218
+        outSlope: -1.4473218
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.4110034
+        value: 0.9253516
+        inSlope: -1.3273983
+        outSlope: -1.3273983
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.7325603
+        value: 0.50023997
+        inSlope: -0.8073124
+        outSlope: -0.8073124
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8463642
+        value: 0.32237244
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.9594264
+        value: 0.052630782
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -304,3 +358,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _startingTime: 30
+  _timerText: {fileID: 0}

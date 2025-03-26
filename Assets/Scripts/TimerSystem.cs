@@ -11,16 +11,21 @@ public class TimerSystem : MonoBehaviour
     private float _timeRemaining;
 
     [SerializeField]
-    private TextMeshProUGUI _timer;
+    private TextMeshProUGUI _timerText;
 
 
     private TagSystem _tagSystem;
 
-
+    public float TimeRemaining { get { return _timeRemaining; } }
     private void Start()
     {
         _timeRemaining = _startingTime;
         _tagSystem = GetComponent<TagSystem>();
+        if (_timerText)
+        {
+
+            _timerText.text = _timeRemaining.ToString();
+        }
 
     }
     private void Update()
@@ -32,11 +37,12 @@ public class TimerSystem : MonoBehaviour
         _timeRemaining -= Time.deltaTime;
         _timeRemaining = Mathf.Clamp(_timeRemaining, 0, _startingTime);
 
-
-        if (_timer)
-
+        if(_timerText)
         {
-
+            _timerText.text = _timeRemaining.ToString();
         }
+        
+
+        
     }
 }
