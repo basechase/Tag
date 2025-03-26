@@ -166,4 +166,9 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void GotoGameScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
 }
