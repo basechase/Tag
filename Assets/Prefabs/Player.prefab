@@ -169,6 +169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _startTagged: 0
   _tagImmunityDuration: 1
+  _tagParticlesPrefab: {fileID: 3025834553395272331, guid: 7ed0b9d0220321a4b9388658369e2553,
+    type: 3}
 --- !u!96 &4170703045915960851
 TrailRenderer:
   serializedVersion: 3

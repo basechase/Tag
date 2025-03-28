@@ -81,6 +81,7 @@ public class GameManager : MonoBehaviour
         _player2Controller = _player2.GetComponent<PlayerController>();
              */
         }
+
         else
             Debug.LogError("Gamemanager: player2 not assigned");
         if (!_winTextBackground)
