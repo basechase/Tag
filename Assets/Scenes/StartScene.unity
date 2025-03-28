@@ -769,6 +769,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 584781450026150507, guid: 1b006027882769d42a1c8e5d9a816703,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be829aa021c858f4480345c29ecb4d98, type: 2}
+    - target: {fileID: 4170703045915960851, guid: 1b006027882769d42a1c8e5d9a816703,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 6312267317552474348, guid: 1b006027882769d42a1c8e5d9a816703,
         type: 3}
       propertyPath: m_Enabled
@@ -1168,7 +1178,7 @@ RectTransform:
   m_GameObject: {fileID: 1936888783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8.335777, y: 4.917738, z: 1}
+  m_LocalScale: {x: 3.926469, y: 2.5544698, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1455523967}
@@ -1192,7 +1202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_Color: {r: 0.098039225, g: 0.10196079, b: 0.10196079, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
