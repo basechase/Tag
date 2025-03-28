@@ -105,10 +105,10 @@ public class GameManager : MonoBehaviour
             return;
 
         if (_player1Timer.TimeRemaining <= 0)
-            Win("player 1 wins");
+            Win("player 2 wins");
 
         if (_player2Timer.TimeRemaining <= 0)
-            Win("player 2 wins");
+            Win("player 1 wins");
     }
     private void Win(string winText)
     {
